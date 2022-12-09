@@ -78,15 +78,16 @@ section.module.parallax:after{
 
 
 section.module.parallax-1{
-    background-image: url(../imagem/Screenshot_1.png);
+    background-image: url(../imagem/mapa.png);
 }
 
 section.module.parallax-2{
-    background-image: url(../imagem/lofiquarto.gif);
+    background-image: url(../imagem/foto-branca-download-wallpapers-e-onde-usar_o1fcm9aiph1mte1km1f11cs53mng.png);
 }
 
-section.module.parallax-3{
+section.module{
     background-image: url(../imagem/frentista.jpg);
+    
 }
 section.module.parallax-4{
     background-image: url(../imagem/quarto.jpg);
@@ -121,6 +122,23 @@ left: 70%;
 transform: translate(-50%, -50%);
 
 }
+h5{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    
+    }
+
+    h6{
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        
+        }
 
 .lofi {
     position: absolute;
@@ -152,4 +170,12 @@ transform: translate(-50%, -50%);
 /*animação do texto*/
 .area-1, .area-2, .area-3 {
     visibility: hidden;
+}
+
+
+
+.fundo{
+    background-image:url(../imagem/frentista.jpg); 
+    background-size: cover;
+    height: 1000px;
 }
